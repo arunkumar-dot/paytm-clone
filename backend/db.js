@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 const { number, string } = require("zod")
-mongoose.connect("mongodb+srv://admin:admin@cluster0.cls4v.mongodb.net/")
+mongoose.connect(" ")
 
 const UsersSchema = new mongoose.Schema({
     id: String,
